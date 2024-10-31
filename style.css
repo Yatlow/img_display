@@ -1,11 +1,23 @@
-
-
-.gallery{
-    display: flex;
-    justify-content: space-evenly;
+.mainBox{
+    background-color: aquamarine;
+    height: 100vh;
+    padding: 40px 0 0 0;
+}
+h1{
+    text-align: center;
+}
+.carousel{
+    width: 306px;
+    margin: 0 0 0 600px;
+}
+.carousel-inner{
+    width: 300px;
+    text-align: center;
+}
+.gaerlybox{
     margin-top: 50px;
 }
-.gallery > img{
+.carousel-item > img{
     height: 300px;
     width: 300px;
     object-fit: cover;
